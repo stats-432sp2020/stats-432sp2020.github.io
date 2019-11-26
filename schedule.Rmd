@@ -1,0 +1,63 @@
+---
+title: "Schedule"
+---
+
+```{r include = FALSE}
+library(dplyr)
+library(stringr)
+library(readr)
+library(tidyr)
+
+lec.root = "https://raw.githubusercontent.com/stats-432sp2018/lectures/master/"
+
+rawdat <- read.csv("schedule.csv")
+cdat <- rawdat %>%
+  mutate(ugly_date = ISOdate(2018, match(month, month.name), day),
+         date = sprintf("%s-%02d %s",
+                        tolower(months(ugly_date, abbreviate = TRUE)),
+                        day, tolower(weekdays(ugly_date,abbreviate = TRUE))),
+         topic = topic,
+         action = action)
+
+
+## Deal with linking notes when desired
+cdat$notes_name = paste0(cdat$notes,'.pdf')
+cdat$notes_name[cdat$notes_name=='.pdf'] = ' '
+cdat$full_path = paste0(lec.root, cdat$notes_name)
+cdat$notes1 = rep('(pdf)',nrow(cdat))
+cdat$notes1 = str_replace(cdat$notes1, "(pdf)", '<a href="LINK">\\1</a>')
+exist_pdfs = list.files("../lectures/", 'pdf')
+link_them = cdat$link_it & (cdat$notes_name %in% exist_pdfs)
+cdat$notes1[!link_them] = ' '
+cdat <- cdat %>% mutate(notes = str_replace(notes1, '\"LINK\"', full_path))
+rownames(cdat) <- NULL
+
+## Link all reading responses
+which.weeks.rrs = c(1:8,10:14)
+which.days.rrs = which.weeks.rrs*2
+exist_dirs = list.dirs("../", recursive = FALSE, full.names = FALSE)
+exist_rrs = exist_dirs[grepl('rr', exist_dirs)]
+exist_rrs = exist_rrs[order(as.numeric(substring(exist_rrs,3)))]
+rrlinks = paste0('https://github.com/stats-432sp2020/', exist_rrs)
+allrrs = c('rr1',exist_rrs)
+cdat$rr = character(nrow(cdat))
+rrlinks = c('https://github.com/stats-432sp2020/class-roster', rrlinks)
+allrrs = paste0('<a href=',rrlinks,'>',allrrs,'</a>')
+cdat$rr[which.days.rrs[1:length(rrlinks)]] = allrrs
+```
+
+
+* Schedule is subject to change. See the [lectures repo](https://github.com/stats-432sp2018/lectures) for all materials. It is possible that more notes are in that repo but not linked here. _If you are looking for notes, check there before messaging me._  
+
+* Actions in parentheses `(some action)` indicate optional/supplemental readings.
+
+AEPV = [_Advanced Data Analysis from an Elementary Point of View_](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf)  
+ISL = [_Introduction to Statistical Learning_](http://www-bcf.usc.edu/~gareth/ISL/)  
+HGR = [_Happy Git with R_](http://happygitwithr.com/)  
+R4DS = [_R for Data Science_](http://r4ds.had.co.nz)  
+PC = Project Checkpoint
+
+```{r results = 'asis', echo = FALSE}
+options(knitr.kable.NA=' ')
+knitr::kable(cdat %>% select(date, topic, notes, reading, action, rr))
+```
