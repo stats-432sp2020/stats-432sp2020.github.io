@@ -1,7 +1,7 @@
 name: "STATS 432 - ALM II"
 output_dir: "."
 navbar:
-  title: "STATS 432 - Applied Linear Models II Spring 2018"
+  title: "STATS 432 - Applied Linear Models II Spring 2020"
   right:
     - text: "Syllabus"
       href: syllabus.html
@@ -12,7 +12,7 @@ navbar:
     - text: "Project"
       href: project.html
     - text: "Github"
-      href: https://github.com/stats-432sp2018
+      href: https://github.com/stats-432sp2020
 output:
   html_document:
     keep_md: TRUE
