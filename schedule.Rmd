@@ -8,11 +8,11 @@ library(stringr)
 library(readr)
 library(tidyr)
 
-lec.root = "https://raw.githubusercontent.com/stats-432sp2018/lectures/master/"
+lec.root = "https://raw.githubusercontent.com/stats-432sp2020/lectures/master/"
 
 rawdat <- read.csv("schedule.csv")
 cdat <- rawdat %>%
-  mutate(ugly_date = ISOdate(2018, match(month, month.name), day),
+  mutate(ugly_date = ISOdate(2020, match(month, month.name), day),
          date = sprintf("%s-%02d %s",
                         tolower(months(ugly_date, abbreviate = TRUE)),
                         day, tolower(weekdays(ugly_date,abbreviate = TRUE))),

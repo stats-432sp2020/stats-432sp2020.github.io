@@ -12,11 +12,11 @@ The premise of this project is  simple. You are to pick a real data set for whic
 
 You will submit three written components and your group will deliver a 15 minute presentation during the last week of class.
 
-- Project checkpoint 0: due __Thursday, January 25__
-- Project checkpoint 1: due __Thursday, January 25__
-- Project checkpoint 2: due __Thursday, March 8__
-- Project checkpoint 3: due __Monday, April 30__
-- Project presentations: Tuesday/Thursday, April 24/26
+- Project checkpoint 0: due __Thursday, January 30__
+- Project checkpoint 1: due __Thursday, January 30__
+- Project checkpoint 2: due __Thursday, March 12__
+- Project checkpoint 3: due __Tuesday, May 5__
+- Project presentations: Tuesday/Thursday, April 28/30
 
 ## Some sources for data
 

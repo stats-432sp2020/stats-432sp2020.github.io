@@ -11,7 +11,7 @@ output:
 __Instructor__:  
 Daniel McDonald  
 Office: Myles Brand Hall E210C  
-Website: https://dajmcdon.github.io/
+Website: https://dajmcdon.github.io/  
 Slack: @dajmcdon  
 Email: dajmcdon@indiana.edu  
 
@@ -95,7 +95,6 @@ If you send me email instead, I may ignore it.
 - It may be more efficient to answer your question “in-person” so make good use of office hours (2.5 hours per week).  
 - Emails will almost certainly be ignored.  
 - I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
-- Ignoring these rules will result in decreased participation points.
 
 ### Grading
 
@@ -133,17 +132,17 @@ during class meetings or office hours in the presence of me or the TA. This mean
 
 You will be required to complete a team project (2-4 people). You may
 choose this group. The goal
-is to analyze a dataset in depth using anything that you have learned. The project will have three checkpoints: PC 1 will be due __Thursday, January 25__, PC 2 is due __Thursday, March 8__, PC 3 is due on __Monday, April 30__. All are to be uploaded to your repo by 11:59pm on those dates. See the [project](project.html) page for detailed requirements.
+is to analyze a dataset in depth using anything that you have learned. The project will have three checkpoints: PC 1 will be due __Thursday, January 30__, PC 2 is due __Thursday, March 12__, PC 3 is due on __Tuesday, May 5__. All are to be uploaded to your repo by 11:59pm on those dates. See the [project](project.html) page for detailed requirements.
 
 The entire class will give brief presentations during the last week of classes. 
 
 #### Exams
 
 There will be two take home exams. Both will be completed entirely individually. 
-The midterm will be made available on __Wednesday, Febuary 21__ for submission by __Wednesday, February 28__.
-The second exam will be available __Friday, April 13__ for submission by __Friday, April 20__. In both cases, the exam file will be downloaded from your personal repo at 11:59pm on the due date. Late submissions will not be accepted.
+The midterm will be made available on __Wednesday, Febuary 26__ for submission by __Wednesday, March 4__.
+The second exam will be available __Friday, April 17__ for submission by __Friday, April 24__. In both cases, the exam file will be downloaded from your personal repo at 11:59pm on the due date. Late submissions will not be accepted.
 
-If either of these dates pose some type of problem, you must notify me no later than Friday, January 12. After this date, no alternatives will be considered without medical documentation.
+If either of these dates pose some type of problem, you must notify me no later than Friday, January 17. After this date, no alternatives will be considered without medical documentation.
 
 ### Important considerations
 

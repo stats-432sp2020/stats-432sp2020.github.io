@@ -18,9 +18,9 @@ Yes. This class is heavily computer oriented. Ideally, you should bring your lap
 
 * Come to office hours. Again, I like explaining things.
 
-* Do the assignments – start early and make sure you attempt and understand all questions. I can't emphasize this enough. The biggest mistake you can make is to convince yourself that you know something because a classmate did it on the HW. Make sure you understand every step and how to get there.
+* Do the assignments --- start early and make sure you attempt and understand all questions. I can't emphasize this enough. The biggest mistake you can make is to convince yourself that you know something because a classmate did it on the HW. Make sure you understand every step and how to get there.
 
-* Do not procrastinate - don’t let a unit go by with unanswered questions as it will just make the following unit’s material even more difficult to follow.
+* Do not procrastinate --- don’t let a unit go by with unanswered questions as it will just make the following unit’s material even more difficult to follow.
 
 ### How can I get better at R?
 
@@ -28,7 +28,7 @@ I get this question a lot. The answer is almost never "go read the book _How to 
 
 When I took German in 7th grade, I remember my teacher saying "to learn a language, you have to constantly tell lies". What he meant was, you don't just say "yesterday I went to the gym". You say "yesterday I went to the market", "yesterday I went to the movies", "yesterday she went to the gym", etc. The point is to internalize conjugation, vocabulary, and the inner workings of the language. The same is true when coding. Do things different ways. Try automating regular tasks. 
 
-If you are still looking for more reading, there are some links on my [website](http://mypage.iu.edu/~dajmcdon/usefullinks.html) as well as many other places accessible by [Google](http://www.google.com/).
+If you are still looking for more reading, there are some links on my [website](https://dajmcdon.github.io/code-links/) as well as many other places accessible by [Google](http://www.google.com/).
 
 ### My code doesn't run. What do I do?
 
@@ -134,7 +134,7 @@ It is important to make sure you do in fact have git installed on your computer 
 
 These commands will tell you where the `git.exe` file is located. Typically it will look something like this: `/usr/local/git/bin/git` or `/usr/bin/git` or some variation of those.
 
-Once confirming the location of `git.exe` you need to tell RStudio where it is. Open up RStudio, got to Preferences and select the Git/SVN option:
+Once confirming the location of `git.exe` you need to tell RStudio where it is. Open up RStudio, go to Preferences and select the Git/SVN option:
 
 ![](figs/RStudio_git_svn.png)
 
@@ -143,11 +143,11 @@ In the Git executable area, fill in the path to your git.exe. If RStudio does no
 On a Mac, to make hidden files visible, close RStudio and do the following:
 
   * Open Terminal found in Finder > Applications > Utilities.
-  * In Terminal, paste the following: defaults write com.apple.finder AppleShowAllFiles YES.
+  * In Terminal, paste the following: ```defaults write com.apple.finder AppleShowAllFiles YES```.
   * Press return.
   * Hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
 
-And then reopen RStudio, go to Preferences -> Git/SVN -> Browse... and you should be able to navigate to the `git.exe`
+And then reopen RStudio, go to Preferences > Git/SVN > Browse... and you should be able to navigate to the `git.exe`
 
 You will then need to create an RSA Key. You can do this by clicking on 'Create RSA Key...' at the bottom of the Git/SVN panel, then 'View public key'. Copy the key you see, and add it to your GitHub account by using the instructions provided [here](https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account).
 
