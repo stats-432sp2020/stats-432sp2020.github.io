@@ -88,6 +88,8 @@ Slack has apps for iPhone or Android, Mac or Windows. Or you can use the web.
 
 If you send me email instead, I may ignore it.
 
+__Join Here:__ [Click me](https://join.slack.com/t/stat432-sp2020/shared_invite/enQtODk0MTMyNjM3MTg5LTgyYmMzMmViYzM4MDFmNDNkMTU4MzBhZGMwZTVhMjlhYjJlNGVhZTYwYmU3OGQzOWZhYWIzMjU0ODViMWNlZWY)
+
 #### Rules
 
 - All content-related (non-personal) questions should be asked in [Slack](https://stats-432sp2020.slack.com/). Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
