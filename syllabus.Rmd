@@ -16,8 +16,8 @@ Slack: @dajmcdon
 Email: dajmcdon@indiana.edu  
 
 __Office hours__:  
-Me: TBA  
-Joe: TBA
+Me: 1--2 Wednesday  
+Joe: 2--3:30 Wednesday
 
 __Course webpage__:    
 WWW: https://stats-432sp2020.github.io/  

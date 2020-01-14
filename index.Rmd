@@ -28,8 +28,8 @@ wigglydata = function(ntrain, ntest, p_max = 20){
 }
 
 wigglyplot = function(df,p){
-  blue = "#0b61a4"
-  orange = "#ff9200"
+  blue = "#7b3294"
+  orange = "#008837"
   g1 <- ggplot(df) + 
     geom_point(aes(x=x,y=y,col=set)) +
     scale_color_manual("set",values=c("test"=blue,"train"=orange))+
@@ -40,8 +40,8 @@ wigglyplot = function(df,p){
     theme_minimal(base_family = "serif")
 }
 train_testplot = function(df,p){
-  blue = "#0b61a4"
-  orange = "#ff9200"
+  blue = "#7b3294"
+  orange = "#008837"
   error = df[,-c(1:3)]
   out = c(by((error-df$y)^2, df$set, function(x) apply(x, 2, mean),simplify = TRUE))
   params = rep(1:p+1,times=2)
