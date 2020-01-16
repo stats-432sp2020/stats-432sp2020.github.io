@@ -1,0 +1,23 @@
+name: "STATS 432 - ALM II"
+output_dir: "."
+navbar:
+  title: "STATS 432 - Applied Linear Models II Spring 2020"
+  right:
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "FAQ"
+      href: faq.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Project"
+      href: project.html
+    - text: "Github"
+      href: https://github.com/stats-432sp2020
+output:
+  html_document:
+    keep_md: TRUE
+    theme: cosmo
+    highlight: textmate
+    css: 
+      - site_libs/local/nav.css
+      - site_libs/local/main.css
