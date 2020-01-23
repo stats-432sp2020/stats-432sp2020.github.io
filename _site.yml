@@ -9,6 +9,8 @@ navbar:
       href: faq.html
     - text: "Schedule"
       href: schedule.html
+    - text: "Slides"
+      href: https://stats-432sp2020.github.io/lectures/
     - text: "Project"
       href: project.html
     - text: "Github"
