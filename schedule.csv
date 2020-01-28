@@ -1,9 +1,9 @@
 month,day,dow,link_it,notes,topic,reading,action
 January,14,Tuesday,TRUE,lec01,"intro, syllabus, github",HGR
-January,16,Thursday,TRUE,lec02,github and Rmarkdown,(R4DS 27-30)
-January,21,Tuesday,TRUE,lec03,coding and functions,AEPV App I. (R4DS 19)
+January,16,Thursday,TRUE,,github and Rmarkdown,(R4DS 27-30)
+January,21,Tuesday,TRUE,lec02,coding and functions,AEPV App I. (R4DS 19)
 January,23,Thursday,FALSE,,,,HW 1 due
-January,28,Tuesday,FALSE,lec04,linear regression,AEPV 1 (ISL 3)
+January,28,Tuesday,TRUE,lec03,linear regression,AEPV 1 (ISL 3)
 January,30,Thursday,FALSE,,,,PC 1
 February,4,Tuesday,FALSE,lec05,regression issues part I,AEPV 2
 February,6,Thursday,FALSE,,,,HW 2 due
