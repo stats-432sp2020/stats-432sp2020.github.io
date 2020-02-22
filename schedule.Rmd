@@ -9,7 +9,7 @@ library(readr)
 library(tidyr)
 
 lec.root = "https://raw.githubusercontent.com/stats-432sp2020/lectures/master/"
-which.days.rrs = c(2,3,5,7,9)
+which.days.rrs = c(2,3,5,7,9,11,13)
 which.weeks.rrs = c(1)
 rawdat <- read.csv("schedule.csv")
 cdat <- rawdat %>%
