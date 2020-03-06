@@ -13,18 +13,18 @@ February,18,Tuesday,TRUE,lec06,smoothing,AEPV 4
 February,20,Thursday,FALSE,,,,
 February,25,Tuesday,TRUE,lec07,bootstrap and simulation,"AEPV 5,6 (ISL 5.2)","HW 3 due, Exam 1 out on Wednesday"
 February,27,Thursday,FALSE,,,,
-March,3,Tuesday,FALSE,lec08,regression issues part II,AEPV 7,"Exam 1 due on Wednesday"
+March,3,Tuesday,TRUE,lec08,additive models,AEPV 8,"Exam 1 due on Wednesday"
 March,5,Thursday,FALSE,
-March,10,Tuesday,FALSE,lec09,additive models,AEPV 9 (ISL 7.1-7.3)
-March,12,Thursday,FALSE,lec10,,,"NO RR, PC 2"
-March,24,Tuesday,FALSE,lec11,classification,"AEPV 11.1-11.3, ISL 4"
+March,10,Tuesday,TRUE,lec09,weighting and variance,AEPV 10
+March,12,Thursday,FALSE,,,,"PC 2"
+March,24,Tuesday,FALSE,lec10,logistic regression,"AEPV 11.1-11.3"
 March,26,Thursday,FALSE,
-March,31,Tuesday,FALSE,lec12,GLMs and GAMS,"AEPV 11.4-12"
-April,2,Thursday,FALSE,,,,HW 5 due
-April,7,Tuesday,FALSE,lec13,"KNN, LDA, and Logit",ISL 4
-April,9,Thursday,FALSE,
+March,31,Tuesday,FALSE,lec11,GLMs and GAMS,"AEPV 11.4-12"
+April,2,Thursday,FALSE,,,,HW 4 due
+April,7,Tuesday,FALSE,lec12,"KNN, LDA, and Logit",ISL 4
+April,9,Thursday,FALSE,lec13, "Neural networks"
 April,14,Tuesday,FALSE,lec14,trees,AEPV 13 and ISL 8
-April,16,Thursday,FALSE,,,,"HW 6 due, Exam 2 out"
+April,16,Thursday,FALSE,,,,"HW 5 due, Exam 2 out"
 April,21,Tuesday,FALSE,lec15,regularization,ISL 6
 April,23,Thursday,FALSE,,,,Exam 2 due
 April,28,Tuesday,FALSE,,,,presentations
